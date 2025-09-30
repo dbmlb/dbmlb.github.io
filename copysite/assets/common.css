@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #0b0c0c;
+    margin: 0;
+    padding: 0;
+    background-color: #fff
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #0b0c0c
+}
+
+/* Links */
+a {
+    color: #1d70b8;
+    text-decoration: underline;
+    text-decoration-thickness: max(1px, .0625rem);
+    text-underline-offset: .1578em
+}
+
+a:hover {
+    color: #003078;
+    text-decoration-thickness: max(3px, .1875rem, .12em)
+}
+
+/* Lists */
+ul {
+    margin: 0 0 15px;
+    padding-left: 20px;
+    list-style-type: none
+}
+
+ul li {
+    margin-bottom: 5px
+}
+
+/* Layout */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+.main {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+
+/* Header */
+.header {
+    background-color: #0b0c0c;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 10px solid #1d70b8;
+}
+
+.header-title {
+    font-size: 1.875rem;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Menu */
+.menu {
+    margin-top: 10px
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0c0c;
+    padding: 10px 0
+}
+
+.menu-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    padding: 5px 10px;
+    text-decoration-thickness: max(1px, .0625rem);
+    text-underline-offset: .1578em
+}
+
+.menu-link:hover {
+    color: #fd0;
+    text-decoration-thickness: max(3px, .1875rem, .12em)
+}
+
+/* Footer */
+.footer {
+    background-color: #f3f2f1;
+    color: #0b0c0c;
+    padding: 20px 0;
+    border-top: 10px solid #1d70b8
+}
+
+.footer-link {
+    color: #1d70b8;
+    text-decoration: underline
+}
+
+.footer-link:hover {
+    color: #003078
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px
+}
+.sources th, .sources td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left
+}

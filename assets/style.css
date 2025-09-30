@@ -1,0 +1,103 @@
+/* Base styles for the portfolio website */
+body {
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+
+    /* Gradient */
+    background: linear-gradient(120deg, 
+        #f0f8ff 0%, 
+        #d6eaff 40%, 
+        #b0d4ff 70%, 
+        #e6f7ff 100%);
+    background-repeat: no-repeat;      /* prevents repetition */
+    background-attachment: fixed;      /* optional: keeps gradient fixed on scroll */
+    background-size: cover;            /* ensures gradient scales to the full page */
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+}
+
+
+/* Ensure the invisible link becomes visible on hover */
+.invisible-link {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0; /* Invisible by default */
+  transition: opacity 0.3s ease;
+  text-decoration: none;
+  color: #fff; /* Visible color when hovered */
+  background: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.invisible-link:hover {
+  opacity: 1; /* Becomes visible on hover */
+}
+
+/* Style for the button list */
+.button-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-list button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-list button:hover {
+  background-color: #555;
+}
